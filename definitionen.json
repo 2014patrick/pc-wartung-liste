@@ -1,0 +1,3320 @@
+{
+ "schema": 1,
+ "version": "2026.11.11.1",
+ "hinweis": "Erkennungsliste für PC-Wartung. Wird nur mit gültiger Signatur verwendet.",
+ "kategorien": {
+  "treiber": "Treiber-Updater: nutzlos bis schädlich, Treiber kommen über Windows Update oder den Hersteller",
+  "optimierer": "Fake-Optimierer oder Registry-Cleaner mit Angstwerbung",
+  "adware": "Werbe-Software, Such-Hijacker oder Toolbar",
+  "scareware": "Schreck-Software (Scareware) oder gefälschter Virenschutz",
+  "beipack": "Beigepackter Browser-Berater (kam mit Java/Adobe mit), nutzlos",
+  "oem": "Meist vom Hersteller vorinstalliert (Werbung/Testversion): wenn nicht genutzt, über Einstellungen > Apps deinstallieren",
+  "tuning": "Tuning-Tool mit aggressiver Werbung, hier nicht nötig (PC-Wartung erledigt dasselbe)",
+  "veraltet": "Veraltet und unsicher, wird nicht mehr gepflegt: deinstallieren",
+  "torrent": "Enthält Werbung und Beipack; Alternative qBittorrent",
+  "av": "Fremd-Virenschutz",
+  "beipack-b": "Wird oft ungefragt mit anderen Installern mitgeliefert: wenn nicht bewusst gewählt, über Einstellungen > Apps deinstallieren",
+  "aktivator": "Illegaler Aktivator für Windows/Office: sehr oft mit Schadsoftware verseucht. Entfernen, vollständigen Virenscan machen und korrekt lizenzieren",
+  "eingestellt": "Vom Hersteller eingestellt, bekommt keine Sicherheitsupdates mehr: deinstallieren oder durch den Nachfolger ersetzen",
+  "browser-b": "Werbe- oder Mining-Browser, kommt meist als Beipack: wenn nicht bewusst installiert, deinstallieren"
+ },
+ "programme": [
+  {
+   "n": "Driver Booster",
+   "m": "^(IObit )?Driver Booster\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "Driver Easy",
+   "m": "^Driver Easy\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "DriverPack",
+   "m": "^DriverPack\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "Driver Support",
+   "m": "^Driver ?Support\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "Slimware Utilities",
+   "m": "^Slimware",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "SlimDrivers",
+   "m": "^SlimDrivers\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "DriverUpdate",
+   "m": "^DriverUpdate\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "Smart Driver Care / Updater",
+   "m": "^Smart Driver (Care|Updater)\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "Advanced Driver Updater",
+   "m": "^Advanced Driver Updater\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "Driver Reviver",
+   "m": "^Driver Reviver\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "Driver Talent",
+   "m": "^Driver Talent\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "Driver Genius",
+   "m": "^Driver Genius\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "WinZip Driver Updater",
+   "m": "^WinZip Driver Updater\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "Avast Driver Updater",
+   "m": "^Avast Driver Updater\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "AVG Driver Updater",
+   "m": "^AVG Driver Updater\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "Auslogics Driver Updater",
+   "m": "^Auslogics Driver Updater\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "Outbyte Driver Updater",
+   "m": "^Outbyte Driver Updater\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "DriverFix",
+   "m": "^DriverFix\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "PC HelpSoft Driver Updater",
+   "m": "^PC HelpSoft Driver Updater\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "Ashampoo Driver Updater",
+   "m": "^Ashampoo Driver Updater\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "DriverMax",
+   "m": "^DriverMax\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "Driver Navigator",
+   "m": "^Driver Navigator\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "DriverFinder",
+   "m": "^DriverFinder\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "DriverToolkit",
+   "m": "^DriverToolkit\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "Driver Detective",
+   "m": "^Driver Detective\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "DriverScanner",
+   "m": "^DriverScanner\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "DriverAgent",
+   "m": "^DriverAgent\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "Bit Driver Updater",
+   "m": "^Bit Driver Updater\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "Quick Driver Updater",
+   "m": "^Quick Driver Updater\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "ITL Driver Updater",
+   "m": "^ITL Driver Updater\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "TweakBit Driver Updater",
+   "m": "^TweakBit Driver Updater\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "Driver Tonic",
+   "m": "^Driver Tonic\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "Advanced SystemCare",
+   "m": "^Advanced SystemCare\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "Advanced System Optimizer",
+   "m": "^Advanced System Optimizer\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "Advanced System Repair",
+   "m": "^Advanced System Repair\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "Advanced System Protector",
+   "m": "^Advanced System Protector\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "PC Accelerate",
+   "m": "^PC Accelerate\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "PC Optimizer",
+   "m": "^PC Optimizer( Pro)?\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "PC Cleaner",
+   "m": "^PC Cleaner( Pro)?\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "One Click PC Cleaner",
+   "m": "^One Click PC Cleaner",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "PC Mechanic",
+   "m": "^PC Mechanic\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "PC Speed Up",
+   "m": "^PC Speed ?Up\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "PC Booster",
+   "m": "^PC Booster\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "PC Fix Speed",
+   "m": "^PC Fix ?Speed\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "Reimage",
+   "m": "^Reimage\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "Restoro",
+   "m": "^Restoro\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "Fortect",
+   "m": "^Fortect\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "MyCleanPC",
+   "m": "^MyCleanPC\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "OneSafe PC Cleaner",
+   "m": "^OneSafe PC Cleaner\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "RegClean Pro",
+   "m": "^RegClean Pro\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "RegCure",
+   "m": "^RegCure\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "Registry Reviver",
+   "m": "^Registry Reviver\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "SpeedUpMyPC",
+   "m": "^SpeedUpMyPC\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "Uniblue-Programme",
+   "m": "^Uniblue (SpeedUpMyPC|DriverScanner|PowerSuite|RegistryBooster)\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "Smart PC Care",
+   "m": "^Smart PC Care\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "Outbyte PC Repair",
+   "m": "^Outbyte PC Repair\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "Total System Care",
+   "m": "^Total System Care\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "Super Optimizer",
+   "m": "^Super Optimizer\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "Max Optimizer",
+   "m": "^Max Optimizer\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "WinThruster",
+   "m": "^WinThruster\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "SlimCleaner",
+   "m": "^SlimCleaner\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "MPC Cleaner",
+   "m": "^MPC Cleaner\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "Yet Another Cleaner",
+   "m": "^Yet Another Cleaner\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "Optimizer Pro",
+   "m": "^Optimizer ?Pro\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "SpeedyPC",
+   "m": "^SpeedyPC\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "Speedy PC Pro",
+   "m": "^Speedy PC Pro\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "System Doctor 20xx",
+   "m": "^System Doctor 20\\d\\d",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "WinZip System Utilities",
+   "m": "^WinZip System Utilities\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "WinZip Registry Optimizer",
+   "m": "^WinZip Registry Optimizer\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "PCKeeper",
+   "m": "^PCKeeper\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "WinTonic",
+   "m": "^WinTonic\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "Win Tonic",
+   "m": "^Win Tonic\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "PC Repair Tool",
+   "m": "^PC Repair Tool\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "PC Health Advisor",
+   "m": "^PC Health Advisor\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "TweakBit PC-Tools",
+   "m": "^TweakBit PC",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "Mindspark",
+   "m": "\\bMindspark\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "MyWay Search",
+   "m": "\\bMyWay (Search|Speed ?Dial|Toolbar)",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Ask Toolbar",
+   "m": "\\bAsk Toolbar\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Ask.com",
+   "m": "^Ask\\.com",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Conduit Search",
+   "m": "\\bConduit (Search|Toolbar|Engine)",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Search Protect",
+   "m": "^Search Protect\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Babylon Toolbar",
+   "m": "\\bBabylon (Toolbar|Chrome|Browser Manager)",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Delta Toolbar",
+   "m": "\\bDelta (Chrome )?Toolbar\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Delta Search",
+   "m": "^Delta Search\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Sweet Page",
+   "m": "^Sweet ?Page\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Trovi Search",
+   "m": "\\bTrovi (Search|Newtab|Protect)",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Vosteran",
+   "m": "^Vosteran\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Hao123",
+   "m": "^Hao123\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "iLivid",
+   "m": "^iLivid\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Softonic Assistant",
+   "m": "^Softonic (Assistant|Toolbar)",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "OpenCandy",
+   "m": "\\bOpenCandy\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "RelevantKnowledge",
+   "m": "^RelevantKnowledge\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "PriceGong",
+   "m": "^PriceGong\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Shopper Pro",
+   "m": "^Shopper[- ]?Pro\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Yahoo! Powered",
+   "m": "^Yahoo!? Powered\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Yahoo! Search Set",
+   "m": "^Yahoo!? Search Set\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Linkury",
+   "m": "\\bLinkury\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Smartbar",
+   "m": "^Smartbar\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Crossrider",
+   "m": "\\bCrossrider\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "InstallCore",
+   "m": "^InstallCore\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "DownloadAdmin",
+   "m": "^DownloadAdmin\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Amonetize",
+   "m": "^Amonetize\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Somoto",
+   "m": "^Somoto\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Tuto4PC",
+   "m": "^Tuto4PC\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Wajam",
+   "m": "^Wajam\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Web Companion",
+   "m": "^Web Companion\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "WebDiscover",
+   "m": "^WebDiscover\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "OneLaunch",
+   "m": "^OneLaunch\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Wave Browser",
+   "m": "^Wave ?Browser\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Wavesor",
+   "m": "^Wavesor\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "eFast Browser",
+   "m": "^eFast Browser\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "BoBrowser",
+   "m": "^BoBrowser\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Palikan",
+   "m": "^Palikan\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "PC App Store",
+   "m": "^PC App Store\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "SafeFinder",
+   "m": "^SafeFinder\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Yontoo",
+   "m": "^Yontoo\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Vonteera",
+   "m": "^Vonteera\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Imali Media",
+   "m": "^Imali ?Media\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Gamevance",
+   "m": "^Gamevance\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Coupon Server",
+   "m": "^Coupon ?Server\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "DealPly",
+   "m": "^DealPly\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Jollywallet",
+   "m": "^Jollywallet\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Savings Bull",
+   "m": "^Savings ?Bull\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Search Encrypt",
+   "m": "^Search ?Encrypt\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "QuickLens",
+   "m": "^QuickLens\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Any Search Manager",
+   "m": "^Any ?Search Manager\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Search Awesome",
+   "m": "^Search ?Awesome\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Funmoods",
+   "m": "^Funmoods\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Snap.Do",
+   "m": "^Snap\\.?Do\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Iminent",
+   "m": "^Iminent\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Searchqu",
+   "m": "^Searchqu\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Browser Safeguard",
+   "m": "^Browser ?Safeguard\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Tortuga Browser",
+   "m": "^Tortuga Browser\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Segurazo",
+   "m": "^Segurazo\\b",
+   "s": "A",
+   "k": "scareware"
+  },
+  {
+   "n": "SAntivirus",
+   "m": "^SAntivirus\\b",
+   "s": "A",
+   "k": "scareware"
+  },
+  {
+   "n": "ByteFence",
+   "m": "^ByteFence\\b",
+   "s": "A",
+   "k": "scareware"
+  },
+  {
+   "n": "Antivirus Pro 20xx",
+   "m": "^Antivirus Pro 20\\d\\d\\b",
+   "s": "A",
+   "k": "scareware"
+  },
+  {
+   "n": "Windows Defender Pro",
+   "m": "^Windows Defender Pro\\b",
+   "s": "A",
+   "k": "scareware"
+  },
+  {
+   "n": "Security Essentials 20xx (Fälschung)",
+   "m": "^Security Essentials 20\\d\\d\\b",
+   "s": "A",
+   "k": "scareware"
+  },
+  {
+   "n": "McAfee WebAdvisor",
+   "m": "^McAfee WebAdvisor\\b",
+   "s": "A",
+   "k": "beipack",
+   "aw": "^McAfee (LiveSafe|Total Protection|AntiVirus|Internet Security|All Access|Small Business|Personal Security)|^McAfee\\+|^McAfee$|^Norton (360|AntiVirus|Internet Security|Security(?! Scan))"
+  },
+  {
+   "n": "McAfee SiteAdvisor",
+   "m": "^McAfee SiteAdvisor\\b",
+   "s": "A",
+   "k": "beipack",
+   "aw": "^McAfee (LiveSafe|Total Protection|AntiVirus|Internet Security|All Access|Small Business|Personal Security)|^McAfee\\+|^McAfee$|^Norton (360|AntiVirus|Internet Security|Security(?! Scan))"
+  },
+  {
+   "n": "SiteAdvisor",
+   "m": "^SiteAdvisor\\b",
+   "s": "A",
+   "k": "beipack",
+   "aw": "^McAfee (LiveSafe|Total Protection|AntiVirus|Internet Security|All Access|Small Business|Personal Security)|^McAfee\\+|^McAfee$|^Norton (360|AntiVirus|Internet Security|Security(?! Scan))"
+  },
+  {
+   "n": "McAfee Security Scan",
+   "m": "^McAfee Security Scan\\b",
+   "s": "A",
+   "k": "beipack",
+   "aw": "^McAfee (LiveSafe|Total Protection|AntiVirus|Internet Security|All Access|Small Business|Personal Security)|^McAfee\\+|^McAfee$|^Norton (360|AntiVirus|Internet Security|Security(?! Scan))"
+  },
+  {
+   "n": "Norton Security Scan",
+   "m": "^Norton Security Scan\\b",
+   "s": "A",
+   "k": "beipack",
+   "aw": "^McAfee (LiveSafe|Total Protection|AntiVirus|Internet Security|All Access|Small Business|Personal Security)|^McAfee\\+|^McAfee$|^Norton (360|AntiVirus|Internet Security|Security(?! Scan))"
+  },
+  {
+   "n": "WebAdvisor by McAfee",
+   "m": "^WebAdvisor (by|von) McAfee\\b",
+   "s": "A",
+   "k": "beipack",
+   "aw": "^McAfee (LiveSafe|Total Protection|AntiVirus|Internet Security|All Access|Small Business|Personal Security)|^McAfee\\+|^McAfee$|^Norton (360|AntiVirus|Internet Security|Security(?! Scan))"
+  },
+  {
+   "n": "DriverDoc",
+   "m": "^DriverDoc\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "Driver Restore",
+   "m": "^Driver Restore\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "Driver Robot",
+   "m": "^Driver Robot\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "DriverTuner",
+   "m": "^DriverTuner\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "Driver Turbo",
+   "m": "^Driver ?Turbo\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "Carambis Driver Updater",
+   "m": "^Carambis Driver Updater\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "Driver Whiz",
+   "m": "^Driver ?Whiz\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "Driver Updater (Systweak)",
+   "m": "^Systweak Driver Updater\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "DriverCure",
+   "m": "^DriverCure\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "Driver Performer",
+   "m": "^Driver Performer\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "Driver Easy",
+   "m": "^DriverEasy\\b",
+   "s": "A",
+   "k": "treiber"
+  },
+  {
+   "n": "PC TuneUp Maestro",
+   "m": "^PC Tune-?Up Maestro\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "PC Clean Maestro",
+   "m": "^PC Clean Maestro\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "PC Power Speed",
+   "m": "^PC Power Speed\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "PC Speed Maximizer",
+   "m": "^PC Speed Maximizer\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "MyPC Backup",
+   "m": "^MyPC Backup\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "WinZip Malware Protector",
+   "m": "^WinZip Malware Protector\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "RegistryBooster",
+   "m": "^Registry ?Booster\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "Registry Easy",
+   "m": "^Registry Easy\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "RegGenie",
+   "m": "^RegGenie\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "Registry Winner",
+   "m": "^Registry Winner\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "ARO 20xx",
+   "m": "^ARO 20\\d\\d\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "Sparktrust PC Cleaner",
+   "m": "^Sparktrust\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "System Healer",
+   "m": "^System Healer\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "PC Performer",
+   "m": "^PC Performer\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "PC Health Kit",
+   "m": "^PC Health ?Kit\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "PC Purifier",
+   "m": "^PC Purifier\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "PC Scan & Repair",
+   "m": "^PC Scan (&|and) Repair\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "PC MightyMax",
+   "m": "^PC MightyMax\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "Smart PC Fixer",
+   "m": "^Smart ?PC ?Fixer\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "Error Fix",
+   "m": "^ErrorFix\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "Error Repair Professional",
+   "m": "^Error Repair Professional\\b",
+   "s": "A",
+   "k": "optimierer"
+  },
+  {
+   "n": "SweetIM / SweetPacks",
+   "m": "^Sweet(IM|Packs)\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "IncrediBar",
+   "m": "\\bIncredi(bar|Mail MediaBar)\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "WhiteSmoke Toolbar",
+   "m": "^WhiteSmoke (New )?Toolbar\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Zugo",
+   "m": "^Zugo\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Bandoo",
+   "m": "^Bandoo\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Claro",
+   "m": "^Claro ?(Search|Browser|Toolbar|LTD)\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Mixi.DJ",
+   "m": "^Mixi\\.?DJ\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Searchya",
+   "m": "^Searchya\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Wsys Control",
+   "m": "^Wsys Control\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "BrowserProtect",
+   "m": "^Browser ?Protect\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Bubble Dock",
+   "m": "^Bubble ?Dock\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Linkey",
+   "m": "^Linkey\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "SupTab",
+   "m": "^SupTab\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Websteroids",
+   "m": "^Websteroids\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "SaveSense",
+   "m": "^SaveSense\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "PricePeep",
+   "m": "^Price ?Peep\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Superfish",
+   "m": "^Superfish\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "VisualDiscovery",
+   "m": "^(Superfish Inc\\. )?VisualDiscovery\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Plus-HD",
+   "m": "^(Plus-?HD|HD-?Plus)[- ]?\\d",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "BetterSurf",
+   "m": "^BetterSurf\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "RocketTab",
+   "m": "^RocketTab\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Qvo6",
+   "m": "^Qvo6\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Portaldosites",
+   "m": "^Portaldosites\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "22find",
+   "m": "^22find\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "iStartSurf",
+   "m": "^iStartSurf\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Omiga Plus",
+   "m": "^Omiga ?Plus\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "MyStartSearch",
+   "m": "^MyStartSearch\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Astromenda",
+   "m": "^Astromenda\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Binkiland",
+   "m": "^Binkiland\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Webssearches",
+   "m": "^Webssearches\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Do-Search",
+   "m": "^Do-?Search\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Awesomehp",
+   "m": "^Awesomehp\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Nationzoom",
+   "m": "^Nationzoom\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Qone8",
+   "m": "^Qone8\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Aartemis",
+   "m": "^Aartemis\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Delta-Homes",
+   "m": "^Delta-?Homes\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Sweet-Page",
+   "m": "^Sweet-Page\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "V9 Portal",
+   "m": "^V9 (Portal|Homepage|Software)\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Lasaoren",
+   "m": "^Lasaoren\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Taplika",
+   "m": "^Taplika\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Trotux",
+   "m": "^Trotux\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Youndoo",
+   "m": "^Youndoo\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Yeabests",
+   "m": "^Yeabests\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Nuesearch",
+   "m": "^Nuesearch\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Mysearch123",
+   "m": "^Mysearch123\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Hohosearch",
+   "m": "^Hohosearch\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Yessearches",
+   "m": "^Yessearches\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Chromstera",
+   "m": "^Chromstera\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "OneStart",
+   "m": "^OneStart\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Shopping Helper / Savings Wave",
+   "m": "^Savings ?Wave\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "CouponDropDown",
+   "m": "^Coupon ?Drop ?Down\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Shopper Reports",
+   "m": "^ShopperReports\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "WeDownload Manager",
+   "m": "^WeDownload Manager\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Download Keeper",
+   "m": "^Download ?Keeper\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Optimizer Elite",
+   "m": "^Optimizer Elite\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Browsers Apps Pro",
+   "m": "^Browsers?_?Apps?_?Pro\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "MapsGalaxy",
+   "m": "^MapsGalaxy\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "FromDocToPDF",
+   "m": "^FromDocToPDF\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "EasyPDFCombine",
+   "m": "^EasyPDFCombine\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "ConvertDocsOnline",
+   "m": "^ConvertDocsOnline\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "TelevisionFanatic",
+   "m": "^TelevisionFanatic\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Utility Chest",
+   "m": "^Utility ?Chest\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "MyScrapNook",
+   "m": "^MyScrapNook\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Zwinky",
+   "m": "^Zwinky\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "IWON",
+   "m": "^IWON\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "FunWebProducts",
+   "m": "\\bFun ?Web ?Products\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "MyWebSearch",
+   "m": "\\bMy ?Web ?Search\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Elex / YAC",
+   "m": "^YAC\\(Yet Another Cleaner",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Bonanza Deals",
+   "m": "^Bonanza ?Deals\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Search App by Ask",
+   "m": "^Search App by Ask\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Shopping App by Ask",
+   "m": "^Shopping App by Ask\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Dregol",
+   "m": "^Dregol\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Ghokswa Browser",
+   "m": "^Ghokswa\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "BrowserAir",
+   "m": "^BrowserAir\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Mustang Browser",
+   "m": "^Mustang Browser\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Olcinium",
+   "m": "^Olcinium\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Unico Browser",
+   "m": "^Unico Browser\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "WebVeil",
+   "m": "^WebVeil\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "Strongvault",
+   "m": "^Strongvault\\b",
+   "s": "A",
+   "k": "adware"
+  },
+  {
+   "n": "PC Protector Plus",
+   "m": "^PC Protector Plus\\b",
+   "s": "A",
+   "k": "scareware"
+  },
+  {
+   "n": "Antivirus 10",
+   "m": "^Antivirus 10$",
+   "s": "A",
+   "k": "scareware"
+  },
+  {
+   "n": "Win 7/8/10 Antivirus 20xx (Fälschung)",
+   "m": "^Win ?(7|8|10|XP|Vista) (Antivirus|Security|Defender) 20\\d\\d\\b",
+   "s": "A",
+   "k": "scareware"
+  },
+  {
+   "n": "Security Shield",
+   "m": "^Security Shield 20\\d\\d\\b",
+   "s": "A",
+   "k": "scareware"
+  },
+  {
+   "n": "System Care Antivirus",
+   "m": "^System Care Antivirus\\b",
+   "s": "A",
+   "k": "scareware"
+  },
+  {
+   "n": "Malware Protection Live",
+   "m": "^Malware Protection Live\\b",
+   "s": "A",
+   "k": "scareware"
+  },
+  {
+   "n": "Defender Pro 20xx",
+   "m": "^Defender Pro 20\\d\\d\\b",
+   "s": "A",
+   "k": "scareware"
+  },
+  {
+   "n": "WildTangent",
+   "m": "WildTangent",
+   "s": "B",
+   "k": "oem"
+  },
+  {
+   "n": "HP JumpStart",
+   "m": "^HP JumpStart",
+   "s": "B",
+   "k": "oem"
+  },
+  {
+   "n": "HP Connection Optimizer",
+   "m": "^HP Connection Optimizer",
+   "s": "B",
+   "k": "oem"
+  },
+  {
+   "n": "Lenovo Welcome",
+   "m": "^Lenovo Welcome",
+   "s": "B",
+   "k": "oem"
+  },
+  {
+   "n": "Acer Collection",
+   "m": "^Acer Collection",
+   "s": "B",
+   "k": "oem"
+  },
+  {
+   "n": "Acer Jumpstart",
+   "m": "^Acer Jumpstart",
+   "s": "B",
+   "k": "oem"
+  },
+  {
+   "n": "ASUS GiftBox",
+   "m": "^ASUS GiftBox",
+   "s": "B",
+   "k": "oem"
+  },
+  {
+   "n": "Booking.com",
+   "m": "^Booking\\.com",
+   "s": "B",
+   "k": "oem"
+  },
+  {
+   "n": "Dropbox Promotion",
+   "m": "^Dropbox Promotion",
+   "s": "B",
+   "k": "oem"
+  },
+  {
+   "n": "Amazon Assistant",
+   "m": "^Amazon Assistant",
+   "s": "B",
+   "k": "oem"
+  },
+  {
+   "n": "Dell Customer Connect",
+   "m": "^Dell Customer Connect",
+   "s": "B",
+   "k": "oem"
+  },
+  {
+   "n": "HP Sure Connect",
+   "m": "^HP Sure Connect",
+   "s": "B",
+   "k": "oem"
+  },
+  {
+   "n": "Candy Crush",
+   "m": "^Candy Crush",
+   "s": "B",
+   "k": "oem"
+  },
+  {
+   "n": "CCleaner",
+   "m": "^CCleaner\\b",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "Avast Cleanup",
+   "m": "^Avast Cleanup",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "AVG TuneUp",
+   "m": "^AVG TuneUp",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "AVG PC TuneUp",
+   "m": "^AVG PC TuneUp",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "Glary Utilities",
+   "m": "^Glary Utilities",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "Wise Care 365",
+   "m": "^Wise Care 365",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "Wise Registry Cleaner",
+   "m": "^Wise Registry Cleaner",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "Wise Disk Cleaner",
+   "m": "^Wise Disk Cleaner",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "Auslogics BoostSpeed",
+   "m": "^Auslogics BoostSpeed",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "Auslogics Registry Cleaner",
+   "m": "^Auslogics Registry Cleaner",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "Ashampoo WinOptimizer",
+   "m": "^Ashampoo WinOptimizer",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "System Mechanic",
+   "m": "^System Mechanic",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "IObit Uninstaller",
+   "m": "^IObit Uninstaller",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "IObit Malware Fighter",
+   "m": "^IObit Malware Fighter",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "Smart Defrag",
+   "m": "^Smart Defrag",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "Avast Secure Browser",
+   "m": "^Avast Secure Browser",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "AVG Secure Browser",
+   "m": "^AVG Secure Browser",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "Registry Cleaner",
+   "m": "^Registry Cleaner\\b",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "Adobe Flash Player",
+   "m": "^Adobe Flash Player",
+   "s": "B",
+   "k": "veraltet"
+  },
+  {
+   "n": "Adobe Shockwave",
+   "m": "^Adobe Shockwave",
+   "s": "B",
+   "k": "veraltet"
+  },
+  {
+   "n": "QuickTime",
+   "m": "^QuickTime\\b",
+   "s": "B",
+   "k": "veraltet"
+  },
+  {
+   "n": "Java 6/7",
+   "m": "^Java\\(TM\\) [67] ",
+   "s": "B",
+   "k": "veraltet"
+  },
+  {
+   "n": "Java 6/7 Update",
+   "m": "^Java [67] Update",
+   "s": "B",
+   "k": "veraltet"
+  },
+  {
+   "n": "Microsoft Silverlight",
+   "m": "^Microsoft Silverlight",
+   "s": "B",
+   "k": "veraltet"
+  },
+  {
+   "n": "Adobe AIR",
+   "m": "^Adobe AIR$",
+   "s": "B",
+   "k": "veraltet"
+  },
+  {
+   "n": "Google Toolbar",
+   "m": "^Google Toolbar\\b",
+   "s": "B",
+   "k": "veraltet"
+  },
+  {
+   "n": "µTorrent",
+   "m": "^µTorrent",
+   "s": "B",
+   "k": "torrent"
+  },
+  {
+   "n": "uTorrent",
+   "m": "^uTorrent",
+   "s": "B",
+   "k": "torrent"
+  },
+  {
+   "n": "BitTorrent",
+   "m": "^BitTorrent$",
+   "s": "B",
+   "k": "torrent"
+  },
+  {
+   "n": "BitTorrent (mit Versionsnummer)",
+   "m": "^BitTorrent \\d",
+   "s": "B",
+   "k": "torrent"
+  },
+  {
+   "n": "RAV Endpoint Protection",
+   "m": "^RAV (Endpoint Protection|Antivirus|VPN)\\b",
+   "s": "B",
+   "k": "beipack-b"
+  },
+  {
+   "n": "ReasonLabs",
+   "m": "^Reason(Labs)? (Application|Security Engine|Cybersecurity)\\b",
+   "s": "B",
+   "k": "beipack-b"
+  },
+  {
+   "n": "Safer Web",
+   "m": "^Safer Web\\b",
+   "s": "B",
+   "k": "beipack-b"
+  },
+  {
+   "n": "Pokki",
+   "m": "^Pokki\\b",
+   "s": "B",
+   "k": "beipack-b"
+  },
+  {
+   "n": "Bing Bar",
+   "m": "^Bing ?Bar\\b",
+   "s": "B",
+   "k": "beipack-b"
+  },
+  {
+   "n": "Yahoo! Toolbar",
+   "m": "^Yahoo!? Toolbar\\b",
+   "s": "B",
+   "k": "beipack-b"
+  },
+  {
+   "n": "AOL Toolbar",
+   "m": "^AOL Toolbar\\b",
+   "s": "B",
+   "k": "beipack-b"
+  },
+  {
+   "n": "WeatherBug",
+   "m": "^WeatherBug\\b",
+   "s": "B",
+   "k": "beipack-b"
+  },
+  {
+   "n": "Norton Online Backup",
+   "m": "^Norton Online Backup\\b",
+   "s": "B",
+   "k": "beipack-b"
+  },
+  {
+   "n": "Amazon 1Button App",
+   "m": "^Amazon 1Button App\\b",
+   "s": "B",
+   "k": "beipack-b"
+  },
+  {
+   "n": "eBay Worldwide",
+   "m": "^eBay Worldwide\\b",
+   "s": "B",
+   "k": "beipack-b"
+  },
+  {
+   "n": "CryptoTab Browser",
+   "m": "^CryptoTab Browser\\b",
+   "s": "B",
+   "k": "browser-b"
+  },
+  {
+   "n": "Clear Browser / ClearBar",
+   "m": "^Clear ?(Browser|Bar)\\b",
+   "s": "B",
+   "k": "browser-b"
+  },
+  {
+   "n": "Pinaview",
+   "m": "^Pinaview\\b",
+   "s": "B",
+   "k": "browser-b"
+  },
+  {
+   "n": "PDF Tycoon / Kuaizip",
+   "m": "^Kuaizip\\b",
+   "s": "B",
+   "k": "browser-b"
+  },
+  {
+   "n": "Baidu Browser / Spark",
+   "m": "^Baidu (Browser|Spark|PC Faster|Antivirus)\\b",
+   "s": "B",
+   "k": "browser-b"
+  },
+  {
+   "n": "UC Browser (PC)",
+   "m": "^UC ?Browser\\b",
+   "s": "B",
+   "k": "browser-b"
+  },
+  {
+   "n": "IObit Software Updater",
+   "m": "^IObit Software Updater\\b",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "Smart Game Booster",
+   "m": "^Smart Game Booster\\b",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "TuneUp Utilities",
+   "m": "^TuneUp Utilities\\b",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "Norton Utilities",
+   "m": "^Norton Utilities\\b",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "Avira System Speedup",
+   "m": "^Avira System Speedup\\b",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "Kerish Doctor",
+   "m": "^Kerish Doctor\\b",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "WinZip Disk Tools",
+   "m": "^WinZip Disk Tools\\b",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "Ashampoo Registry Cleaner",
+   "m": "^Ashampoo Registry Cleaner\\b",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "jv16 PowerTools",
+   "m": "^jv16 PowerTools\\b",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "Eusing Free Registry Cleaner",
+   "m": "^Eusing (Free )?Registry Cleaner\\b",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "RegSeeker",
+   "m": "^RegSeeker\\b",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "Argente Utilities",
+   "m": "^Argente\\b",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "Baidu PC Faster",
+   "m": "^PC Faster\\b",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "Toolwiz Care",
+   "m": "^Toolwiz Care\\b",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "WinUtilities",
+   "m": "^WinUtilities\\b",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "Puran Utilities",
+   "m": "^Puran Utilities\\b",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "SlimComputer",
+   "m": "^SlimComputer\\b",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "Game Fire",
+   "m": "^Game Fire\\b",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "Adobe Reader 9/X/XI",
+   "m": "^Adobe Reader (9|X|XI)\\b",
+   "s": "B",
+   "k": "veraltet"
+  },
+  {
+   "n": "Adobe Acrobat Reader (alt, vor DC)",
+   "m": "^Adobe Acrobat (7|8|9)\\b",
+   "s": "B",
+   "k": "veraltet"
+  },
+  {
+   "n": "Windows Live Essentials",
+   "m": "^Windows Live (Essentials|Mail|Messenger|Writer|Photo Gallery|Movie Maker)\\b",
+   "s": "B",
+   "k": "veraltet"
+  },
+  {
+   "n": "RealPlayer",
+   "m": "^RealPlayer\\b",
+   "s": "B",
+   "k": "veraltet"
+  },
+  {
+   "n": "Picasa",
+   "m": "^Picasa \\d",
+   "s": "B",
+   "k": "veraltet"
+  },
+  {
+   "n": "Internet Explorer Toolbars",
+   "m": "^MSN Toolbar\\b",
+   "s": "B",
+   "k": "veraltet"
+  },
+  {
+   "n": "Java 6/7 (JRE)",
+   "m": "^Java\\(TM\\) SE Runtime Environment [67]\\b",
+   "s": "B",
+   "k": "veraltet"
+  },
+  {
+   "n": "Microsoft Security Essentials",
+   "m": "^Microsoft Security Essentials\\b",
+   "s": "B",
+   "k": "veraltet"
+  },
+  {
+   "n": "Windows Media Player Firefox Plugin",
+   "m": "^Windows Media Player Firefox Plugin\\b",
+   "s": "B",
+   "k": "veraltet"
+  },
+  {
+   "n": "Google Earth Plug-in",
+   "m": "^Google Earth Plug-in\\b",
+   "s": "B",
+   "k": "veraltet"
+  },
+  {
+   "n": "VLC media player 1.x/2.x",
+   "m": "^VLC media player [12]\\.",
+   "s": "B",
+   "k": "veraltet"
+  },
+  {
+   "n": "WinRAR 3/4",
+   "m": "^WinRAR [34]\\.",
+   "s": "B",
+   "k": "veraltet"
+  },
+  {
+   "n": "PuTTY 0.5x/0.6x",
+   "m": "^PuTTY release 0\\.[56]\\d",
+   "s": "B",
+   "k": "veraltet"
+  },
+  {
+   "n": "TeamViewer bis Version 12",
+   "m": "^TeamViewer ([5-9]|1[0-2])( |$)",
+   "s": "B",
+   "k": "veraltet"
+  },
+  {
+   "n": "LibreOffice 3-6",
+   "m": "^LibreOffice [3-6]\\.",
+   "s": "B",
+   "k": "veraltet"
+  },
+  {
+   "n": "OpenOffice.org 3",
+   "m": "^OpenOffice\\.org 3\\b",
+   "s": "B",
+   "k": "veraltet"
+  },
+  {
+   "n": "Skype",
+   "m": "^Skype(™)?( \\d| version| Version|$)",
+   "s": "B",
+   "k": "eingestellt"
+  },
+  {
+   "n": "ICQ",
+   "m": "^ICQ( \\d|$| \\(Version)",
+   "s": "B",
+   "k": "eingestellt"
+  },
+  {
+   "n": "Windows Live Mesh",
+   "m": "^Windows Live Mesh\\b",
+   "s": "B",
+   "k": "eingestellt"
+  },
+  {
+   "n": "Google Talk",
+   "m": "^Google Talk\\b",
+   "s": "B",
+   "k": "eingestellt"
+  },
+  {
+   "n": "Yahoo! Messenger",
+   "m": "^Yahoo!? Messenger\\b",
+   "s": "B",
+   "k": "eingestellt"
+  },
+  {
+   "n": "AIM",
+   "m": "^AIM \\d",
+   "s": "B",
+   "k": "eingestellt"
+  },
+  {
+   "n": "Google Chrome Frame",
+   "m": "^Google Chrome Frame\\b",
+   "s": "B",
+   "k": "eingestellt"
+  },
+  {
+   "n": "Microsoft Office 2003 bis 2019",
+   "m": "^Microsoft Office (Standard|Professional|Home and (Student|Business)|Enterprise|Ultimate|Small Business|Basic)( Edition| Plus)? (2003|2007|2010|2013|2016|2019)\\b",
+   "s": "B",
+   "k": "eingestellt"
+  },
+  {
+   "n": "Opera 12",
+   "m": "^Opera 1[0-2]\\.",
+   "s": "B",
+   "k": "eingestellt"
+  },
+  {
+   "n": "Safari für Windows",
+   "m": "^Safari$",
+   "s": "B",
+   "k": "eingestellt"
+  },
+  {
+   "n": "Windows Essentials 2012",
+   "m": "^Windows Essentials 2012\\b",
+   "s": "B",
+   "k": "eingestellt"
+  },
+  {
+   "n": "Paint.NET 3.x",
+   "m": "^Paint\\.NET v3\\.",
+   "s": "B",
+   "k": "eingestellt"
+  },
+  {
+   "n": "KMSpico",
+   "m": "^KMSpico\\b",
+   "s": "B",
+   "k": "aktivator"
+  },
+  {
+   "n": "KMSAuto",
+   "m": "^KMSAuto\\b",
+   "s": "B",
+   "k": "aktivator"
+  },
+  {
+   "n": "AutoKMS",
+   "m": "^AutoKMS\\b",
+   "s": "B",
+   "k": "aktivator"
+  },
+  {
+   "n": "KMS Tools",
+   "m": "^KMS ?Tools\\b",
+   "s": "B",
+   "k": "aktivator"
+  },
+  {
+   "n": "Microsoft Toolkit",
+   "m": "^Microsoft Toolkit( \\d|$)",
+   "s": "B",
+   "k": "aktivator"
+  },
+  {
+   "n": "Windows Loader",
+   "m": "^Windows Loader\\b",
+   "s": "B",
+   "k": "aktivator"
+  },
+  {
+   "n": "Re-Loader Activator",
+   "m": "^Re-?Loader Activator\\b",
+   "s": "B",
+   "k": "aktivator"
+  },
+  {
+   "n": "KMS_VL_ALL",
+   "m": "^KMS[_ ]VL[_ ]ALL\\b",
+   "s": "B",
+   "k": "aktivator"
+  },
+  {
+   "n": "RemoveWAT",
+   "m": "^RemoveWAT\\b",
+   "s": "B",
+   "k": "aktivator"
+  },
+  {
+   "n": "HEU KMS Activator",
+   "m": "^HEU[_ ]KMS",
+   "s": "B",
+   "k": "aktivator"
+  },
+  {
+   "n": "Wise Driver Care",
+   "m": "^Wise Driver Care\\b",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "Avira Driver Updater",
+   "m": "^Avira Driver Updater\\b",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "Norton Driver Updater",
+   "m": "^Norton Driver Updater\\b",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "Glarysoft Driver Updater",
+   "m": "^Glary(soft)? Driver Updater\\b",
+   "s": "B",
+   "k": "tuning"
+  },
+  {
+   "n": "CCleaner Browser",
+   "m": "^CCleaner Browser\\b",
+   "s": "B",
+   "k": "browser-b"
+  },
+  {
+   "n": "Vuze / Azureus",
+   "m": "^(Vuze|Azureus)\\b",
+   "s": "B",
+   "k": "torrent"
+  },
+  {
+   "n": "BitComet",
+   "m": "^BitComet\\b",
+   "s": "B",
+   "k": "torrent"
+  },
+  {
+   "n": "BitLord",
+   "m": "^BitLord\\b",
+   "s": "B",
+   "k": "torrent"
+  },
+  {
+   "n": "Ares Galaxy",
+   "m": "^Ares( Galaxy)? \\d",
+   "s": "B",
+   "k": "torrent"
+  },
+  {
+   "n": "HP Registration Service",
+   "m": "^HP Registration Service\\b",
+   "s": "B",
+   "k": "oem"
+  },
+  {
+   "n": "HP Games (WildTangent)",
+   "m": "^HP Games\\b",
+   "s": "B",
+   "k": "oem"
+  },
+  {
+   "n": "Lenovo App Explorer",
+   "m": "^Lenovo App Explorer\\b",
+   "s": "B",
+   "k": "oem"
+  },
+  {
+   "n": "Acer Portal Beipack",
+   "m": "^abDocs\\b|^abPhoto\\b|^abFiles\\b|^abMedia\\b",
+   "s": "B",
+   "k": "oem"
+  },
+  {
+   "n": "ASUS WebStorage",
+   "m": "^ASUS WebStorage\\b",
+   "s": "B",
+   "k": "oem"
+  },
+  {
+   "n": "Dell Digital Delivery Werbung",
+   "m": "^Dell Product Registration\\b",
+   "s": "B",
+   "k": "oem"
+  },
+  {
+   "n": "Toshiba Book Place",
+   "m": "^TOSHIBA (Book|App) Place\\b",
+   "s": "B",
+   "k": "oem"
+  },
+  {
+   "n": "Sony VAIO Werbung",
+   "m": "^VAIO (Message Center|Improvement)\\b",
+   "s": "B",
+   "k": "oem"
+  },
+  {
+   "n": "Fujitsu Bonus Apps",
+   "m": "^Fujitsu Bonus Apps\\b",
+   "s": "B",
+   "k": "oem"
+  },
+  {
+   "n": "McAfee",
+   "m": "^McAfee(?! WebAdvisor)(?! Security Scan)(?! SiteAdvisor)",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "Norton",
+   "m": "^Norton(?! Security Scan)(?! Safe Web$)",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "Avast",
+   "m": "^Avast(?! (Driver|Cleanup|Secure))",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "AVG",
+   "m": "^AVG(?! (Driver|TuneUp|PC TuneUp|Secure))",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "Avira",
+   "m": "^Avira",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "TotalAV",
+   "m": "^TotalAV",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "Total AV",
+   "m": "^Total AV",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "PC Protect",
+   "m": "^PC Protect\\b",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "Scanguard",
+   "m": "^Scanguard",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "Panda Dome",
+   "m": "^Panda Dome",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "Kaspersky",
+   "m": "^Kaspersky",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "Bitdefender",
+   "m": "^Bitdefender",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "ESET",
+   "m": "^ESET\\b",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "Malwarebytes",
+   "m": "^Malwarebytes",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "Webroot",
+   "m": "^Webroot",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "Trend Micro",
+   "m": "^Trend Micro",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "Sophos",
+   "m": "^Sophos",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "G DATA",
+   "m": "^G DATA",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "F-Secure",
+   "m": "^F-Secure",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "Comodo",
+   "m": "^COMODO (Internet Security|Antivirus)\\b",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "ZoneAlarm",
+   "m": "^ZoneAlarm\\b",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "Emsisoft",
+   "m": "^Emsisoft\\b",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "Dr.Web",
+   "m": "^Dr\\.Web\\b",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "K7",
+   "m": "^K7 ?(Total|Ultimate|Anti)",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "Quick Heal",
+   "m": "^Quick Heal\\b",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "360 Total Security",
+   "m": "^360 Total Security\\b",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "VIPRE",
+   "m": "^VIPRE\\b",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "BullGuard",
+   "m": "^BullGuard\\b",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "PC Matic",
+   "m": "^PC Matic\\b",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "Adaware",
+   "m": "^(Ad-Aware|adaware) (antivirus|Antivirus)\\b",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "Intego",
+   "m": "^Intego\\b",
+   "s": "AV",
+   "k": "av"
+  },
+  {
+   "n": "Surfshark Antivirus",
+   "m": "^Surfshark Antivirus\\b",
+   "s": "AV",
+   "k": "av"
+  }
+ ],
+ "storePromo": [
+  "king.com.*",
+  "A278AB0D.*",
+  "828B5831.*",
+  "GAMELOFTSA.*",
+  "flaregamesGmbH.*",
+  "Playtika.*",
+  "NORDCURRENT.*",
+  "Nordcurrent.*",
+  "ThumbmunkeysLtd.*",
+  "*.BubbleWitch*",
+  "*.FarmHeroes*",
+  "*.CandyCrush*",
+  "*.HiddenCity*",
+  "*.MarchofEmpires*",
+  "*.CookingFever*",
+  "*.RoyalRevolt*",
+  "*.DisneyMagicKingdoms*",
+  "*.DragonMania*",
+  "*CaesarsSlots*",
+  "*.SlotsFree*",
+  "*.AsphaltLegends*",
+  "*.Asphalt8*"
+ ],
+ "erweiterungMuster": [
+  "coupon",
+  "deal ?finder",
+  "price ?(check|compar|track)",
+  "shop(ping)? ?(assistant|helper|buddy)",
+  "search ?(manager|protect|encrypt|guard|secure)",
+  "toolbar",
+  "weather",
+  "pdf ?(convert|maker|creator)",
+  "video ?downloader",
+  "free ?(games|movies|tv)",
+  "secure ?search",
+  "start ?page",
+  "home ?page",
+  "my ?way",
+  "mindspark",
+  "conduit",
+  "\\bask\\b",
+  "\\bhola\\b",
+  "web ?companion",
+  "ad ?remover",
+  "safe ?finder",
+  "yontoo",
+  "crossrider",
+  "savings",
+  "cashback",
+  "converter ?suite",
+  "quick ?lens",
+  "any ?search",
+  "searchaw",
+  "dealply",
+  "funmoods",
+  "delta ?search",
+  "sweet ?page",
+  "trovi",
+  "vosteran",
+  "wajam"
+ ],
+ "erweiterungIds": [],
+ "suchHosts": [
+  "bing.com",
+  "duckduckgo.com",
+  "ecosia.org",
+  "startpage.com",
+  "qwant.com",
+  "yahoo.com",
+  "yahoo.co.jp",
+  "brave.com",
+  "kagi.com",
+  "baidu.com",
+  "swisscows.com",
+  "metager.de",
+  "metager.org",
+  "you.com",
+  "perplexity.ai",
+  "naver.com",
+  "seznam.cz",
+  "mojeek.com"
+ ],
+ "fernwartung": [
+  {
+   "n": "AnyDesk",
+   "m": "^AnyDesk\\b",
+   "p": [
+    "AnyDesk"
+   ],
+   "d": [
+    "AnyDesk"
+   ]
+  },
+  {
+   "n": "TeamViewer",
+   "m": "^TeamViewer\\b",
+   "p": [
+    "TeamViewer",
+    "TeamViewer_Service"
+   ],
+   "d": [
+    "TeamViewer"
+   ]
+  },
+  {
+   "n": "UltraViewer",
+   "m": "^UltraViewer\\b",
+   "p": [
+    "UltraViewer_Desktop",
+    "UltraViewer_Service"
+   ],
+   "d": [
+    "UltraViewService"
+   ]
+  },
+  {
+   "n": "RustDesk",
+   "m": "^RustDesk\\b",
+   "p": [
+    "rustdesk"
+   ],
+   "d": [
+    "RustDesk"
+   ]
+  },
+  {
+   "n": "ScreenConnect (ConnectWise)",
+   "m": "^ScreenConnect\\b|^ConnectWise (Control|ScreenConnect)\\b",
+   "p": [
+    "ScreenConnect.ClientService",
+    "ScreenConnect.WindowsClient"
+   ],
+   "d": []
+  },
+  {
+   "n": "Splashtop",
+   "m": "^Splashtop (Streamer|Remote|Business|SOS)\\b",
+   "p": [
+    "SRService",
+    "SRServer"
+   ],
+   "d": [
+    "SplashtopRemoteService"
+   ]
+  },
+  {
+   "n": "LogMeIn / GoTo",
+   "m": "^LogMeIn\\b|^GoTo ?(Assist|Resolve|MyPC)\\b|^LogMeIn Rescue\\b",
+   "p": [
+    "LogMeIn"
+   ],
+   "d": [
+    "LogMeIn"
+   ]
+  },
+  {
+   "n": "Supremo",
+   "m": "^Supremo\\b",
+   "p": [
+    "Supremo",
+    "SupremoService"
+   ],
+   "d": [
+    "SupremoService"
+   ]
+  },
+  {
+   "n": "AeroAdmin",
+   "m": "^AeroAdmin\\b",
+   "p": [
+    "AeroAdmin"
+   ],
+   "d": []
+  },
+  {
+   "n": "Ammyy Admin",
+   "m": "^Ammyy\\b",
+   "p": [
+    "AA_v3"
+   ],
+   "d": [
+    "AmmyyAdmin"
+   ]
+  },
+  {
+   "n": "Remote Utilities",
+   "m": "^Remote Utilities\\b",
+   "p": [
+    "rutserv",
+    "rfusclient"
+   ],
+   "d": [
+    "RManService"
+   ]
+  },
+  {
+   "n": "NetSupport",
+   "m": "^NetSupport (Manager|Client|School)\\b",
+   "p": [
+    "client32"
+   ],
+   "d": []
+  },
+  {
+   "n": "Atera Agent",
+   "m": "^Atera ?Agent\\b",
+   "p": [
+    "AteraAgent"
+   ],
+   "d": [
+    "AteraAgent"
+   ]
+  },
+  {
+   "n": "Zoho Assist",
+   "m": "^Zoho Assist\\b",
+   "p": [],
+   "d": []
+  },
+  {
+   "n": "Chrome Remote Desktop",
+   "m": "^Chrome Remote Desktop Host\\b",
+   "p": [
+    "remoting_host"
+   ],
+   "d": [
+    "chromoting"
+   ]
+  },
+  {
+   "n": "VNC-Server",
+   "m": "^(TightVNC|UltraVNC|RealVNC|TigerVNC|VNC Server)\\b",
+   "p": [
+    "tvnserver",
+    "winvnc",
+    "vncserver"
+   ],
+   "d": [
+    "tvnserver",
+    "uvnc_service",
+    "vncserver"
+   ]
+  },
+  {
+   "n": "Radmin Server",
+   "m": "^Radmin Server\\b",
+   "p": [
+    "rserver3"
+   ],
+   "d": [
+    "RServer3"
+   ]
+  },
+  {
+   "n": "DWService",
+   "m": "^DWAgent\\b|^DWService\\b",
+   "p": [
+    "dwagent",
+    "dwagsvc"
+   ],
+   "d": [
+    "DWAgent"
+   ]
+  },
+  {
+   "n": "HopToDesk",
+   "m": "^HopToDesk\\b",
+   "p": [
+    "HopToDesk"
+   ],
+   "d": []
+  },
+  {
+   "n": "Iperius Remote",
+   "m": "^Iperius Remote\\b",
+   "p": [],
+   "d": []
+  },
+  {
+   "n": "ISL Light / AlwaysOn",
+   "m": "^ISL (Light|AlwaysOn)\\b",
+   "p": [],
+   "d": []
+  },
+  {
+   "n": "Parsec",
+   "m": "^Parsec$",
+   "p": [
+    "parsecd"
+   ],
+   "d": [
+    "Parsec"
+   ]
+  },
+  {
+   "n": "MeshCentral Agent",
+   "m": "^Mesh ?Agent\\b",
+   "p": [
+    "MeshAgent"
+   ],
+   "d": [
+    "Mesh Agent"
+   ]
+  },
+  {
+   "n": "NinjaOne Agent",
+   "m": "^NinjaRMMAgent\\b|^NinjaOne\\b",
+   "p": [
+    "NinjaRMMAgent"
+   ],
+   "d": [
+    "NinjaRMMAgent"
+   ]
+  },
+  {
+   "n": "Action1 Agent",
+   "m": "^Action1 Agent\\b",
+   "p": [],
+   "d": []
+  },
+  {
+   "n": "SimpleHelp",
+   "m": "^SimpleHelp\\b|^Remote Access Service \\(SimpleHelp\\)",
+   "p": [],
+   "d": []
+  },
+  {
+   "n": "Getscreen.me",
+   "m": "^Getscreen\\b",
+   "p": [
+    "getscreen"
+   ],
+   "d": []
+  },
+  {
+   "n": "BeyondTrust / Bomgar",
+   "m": "^(Bomgar|BeyondTrust Remote Support)\\b",
+   "p": [],
+   "d": []
+  },
+  {
+   "n": "Dameware",
+   "m": "^Dameware\\b",
+   "p": [],
+   "d": []
+  },
+  {
+   "n": "Tactical RMM",
+   "m": "^Tactical RMM Agent\\b",
+   "p": [
+    "tacticalrmm"
+   ],
+   "d": [
+    "tacticalrmm"
+   ]
+  },
+  {
+   "n": "TeamViewer QuickSupport (portabel)",
+   "m": "^TeamViewer ?QS\\b",
+   "p": [
+    "TeamViewerQS"
+   ],
+   "d": []
+  }
+ ],
+ "pushVerdachtTld": [
+  "xyz",
+  "top",
+  "click",
+  "icu",
+  "cam",
+  "club",
+  "buzz",
+  "rest",
+  "cfd",
+  "sbs",
+  "bar",
+  "monster",
+  "quest",
+  "cyou",
+  "pw",
+  "tk",
+  "ml",
+  "ga",
+  "cf",
+  "gq",
+  "work",
+  "fun",
+  "space",
+  "website",
+  "online",
+  "site",
+  "live",
+  "life",
+  "world",
+  "today",
+  "bid",
+  "win",
+  "loan",
+  "stream",
+  "download",
+  "review",
+  "party",
+  "date",
+  "trade",
+  "racing",
+  "men",
+  "pro",
+  "best",
+  "surf",
+  "beauty",
+  "hair",
+  "skin",
+  "makeup",
+  "mom",
+  "lol",
+  "autos",
+  "boats",
+  "motorcycles",
+  "yachts"
+ ],
+ "pushVerdachtWort": [
+  "push",
+  "notif",
+  "captcha",
+  "robot",
+  "allow",
+  "click",
+  "prize",
+  "winner",
+  "reward",
+  "gift",
+  "lucky",
+  "bonus",
+  "alert",
+  "virus",
+  "antivir",
+  "secur",
+  "protect",
+  "clean",
+  "update",
+  "download",
+  "stream",
+  "adult",
+  "dating",
+  "casino",
+  "bet",
+  "crypto",
+  "profit",
+  "news-",
+  "-news",
+  "daily",
+  "mcafee",
+  "norton",
+  "avast",
+  "defender"
+ ],
+ "pushBekannt": [
+  "google.com",
+  "youtube.com",
+  "gmail.com",
+  "whatsapp.com",
+  "microsoft.com",
+  "office.com",
+  "live.com",
+  "outlook.com",
+  "teams.microsoft.com",
+  "sharepoint.com",
+  "slack.com",
+  "discord.com",
+  "facebook.com",
+  "messenger.com",
+  "instagram.com",
+  "x.com",
+  "twitter.com",
+  "linkedin.com",
+  "reddit.com",
+  "twitch.tv",
+  "github.com",
+  "gitlab.com",
+  "telegram.org",
+  "signal.org",
+  "threema.ch",
+  "proton.me",
+  "zoom.us",
+  "notion.so",
+  "trello.com",
+  "atlassian.net",
+  "asana.com",
+  "monday.com",
+  "dropbox.com",
+  "spotify.com",
+  "netflix.com",
+  "amazon.de",
+  "amazon.com",
+  "ebay.de",
+  "ebay.ch",
+  "paypal.com",
+  "srf.ch",
+  "20min.ch",
+  "blick.ch",
+  "nzz.ch",
+  "tagesanzeiger.ch",
+  "watson.ch",
+  "bluewin.ch",
+  "digitec.ch",
+  "galaxus.ch",
+  "ricardo.ch",
+  "tutti.ch",
+  "sbb.ch",
+  "post.ch",
+  "postfinance.ch",
+  "twint.ch",
+  "swisscom.ch",
+  "meteoschweiz.admin.ch",
+  "spiegel.de",
+  "tagesschau.de",
+  "heise.de",
+  "zeit.de",
+  "faz.net",
+  "sueddeutsche.de",
+  "kicker.de",
+  "web.de",
+  "gmx.net",
+  "gmx.ch",
+  "t-online.de",
+  "claude.ai",
+  "chatgpt.com",
+  "openai.com",
+  "pushover.net",
+  "home-assistant.io",
+  "nabucasa.com",
+  "synology.me",
+  "ui.com",
+  "tiktok.com",
+  "pinterest.com",
+  "duolingo.com",
+  "wikipedia.org"
+ ],
+ "sicherung": [
+  {
+   "n": "Veeam Agent",
+   "m": "^Veeam Agent\\b"
+  },
+  {
+   "n": "Macrium Reflect",
+   "m": "^Macrium Reflect\\b"
+  },
+  {
+   "n": "Acronis",
+   "m": "^Acronis (True Image|Cyber Protect|Backup)\\b"
+  },
+  {
+   "n": "AOMEI Backupper",
+   "m": "^AOMEI Backupper\\b"
+  },
+  {
+   "n": "EaseUS Todo Backup",
+   "m": "^EaseUS Todo Backup\\b"
+  },
+  {
+   "n": "Synology Drive / Active Backup",
+   "m": "^Synology (Drive Client|Active Backup)\\b"
+  },
+  {
+   "n": "Backblaze",
+   "m": "^Backblaze\\b"
+  },
+  {
+   "n": "Duplicati",
+   "m": "^Duplicati\\b"
+  },
+  {
+   "n": "Hasleo Backup Suite",
+   "m": "^Hasleo Backup\\b"
+  },
+  {
+   "n": "Paragon Backup",
+   "m": "^Paragon (Backup|Hard Disk Manager)\\b"
+  },
+  {
+   "n": "Ashampoo Backup",
+   "m": "^Ashampoo Backup\\b"
+  },
+  {
+   "n": "O&O DiskImage",
+   "m": "^O&O DiskImage\\b"
+  },
+  {
+   "n": "Carbonite",
+   "m": "^Carbonite\\b"
+  },
+  {
+   "n": "IDrive",
+   "m": "^IDrive\\b"
+  },
+  {
+   "n": "CrashPlan",
+   "m": "^CrashPlan\\b|^Code42\\b"
+  },
+  {
+   "n": "Kopia",
+   "m": "^KopiaUI\\b"
+  },
+  {
+   "n": "Duplicacy",
+   "m": "^Duplicacy\\b"
+  },
+  {
+   "n": "UrBackup",
+   "m": "^UrBackup\\b"
+  },
+  {
+   "n": "Cobian Backup / Reflector",
+   "m": "^Cobian (Backup|Reflector)\\b"
+  },
+  {
+   "n": "FreeFileSync",
+   "m": "^FreeFileSync\\b"
+  },
+  {
+   "n": "SyncBack",
+   "m": "^SyncBack(Free|SE|Pro)?\\b"
+  },
+  {
+   "n": "Personal Backup",
+   "m": "^Personal Backup\\b"
+  },
+  {
+   "n": "Arq Backup",
+   "m": "^Arq\\b"
+  },
+  {
+   "n": "pCloud Drive",
+   "m": "^pCloud Drive\\b"
+  },
+  {
+   "n": "Google Drive",
+   "m": "^Google Drive\\b"
+  },
+  {
+   "n": "Dropbox",
+   "m": "^Dropbox$"
+  },
+  {
+   "n": "Nextcloud",
+   "m": "^Nextcloud\\b"
+  },
+  {
+   "n": "QNAP NetBak",
+   "m": "^(QNAP )?NetBak\\b"
+  },
+  {
+   "n": "Ugreen NAS Sync",
+   "m": "^UGREEN NAS\\b"
+  }
+ ],
+ "windowsSupport": [
+  {
+   "os": 10,
+   "build": 19045,
+   "v": "22H2",
+   "ende": "2025-10-14",
+   "endeEnt": "2025-10-14",
+   "letzte": true
+  },
+  {
+   "os": 11,
+   "build": 22000,
+   "v": "21H2",
+   "ende": "2023-10-10",
+   "endeEnt": "2024-10-08"
+  },
+  {
+   "os": 11,
+   "build": 22621,
+   "v": "22H2",
+   "ende": "2024-10-08",
+   "endeEnt": "2025-10-14"
+  },
+  {
+   "os": 11,
+   "build": 22631,
+   "v": "23H2",
+   "ende": "2025-11-11",
+   "endeEnt": "2026-11-10"
+  },
+  {
+   "os": 11,
+   "build": 26100,
+   "v": "24H2",
+   "ende": "2026-10-13",
+   "endeEnt": "2027-10-12"
+  },
+  {
+   "os": 11,
+   "build": 26200,
+   "v": "25H2",
+   "ende": "2027-10-12",
+   "endeEnt": "2028-10-10"
+  },
+  {
+   "os": 11,
+   "build": 26300,
+   "v": "26H2",
+   "ende": "2028-10-10",
+   "endeEnt": "2029-10-09"
+  },
+  {
+   "os": 11,
+   "build": 28000,
+   "v": "26H1",
+   "ende": "2028-03-14",
+   "endeEnt": "2029-03-13"
+  }
+ ]
+}
