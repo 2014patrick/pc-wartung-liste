@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "version": "2026.11.11.1",
+ "version": "2026.11.11.2",
  "hinweis": "Erkennungsliste für PC-Wartung. Wird nur mit gültiger Signatur verwendet.",
  "kategorien": {
   "treiber": "Treiber-Updater: nutzlos bis schädlich, Treiber kommen über Windows Update oder den Hersteller",
@@ -16,7 +16,9 @@
   "beipack-b": "Wird oft ungefragt mit anderen Installern mitgeliefert: wenn nicht bewusst gewählt, über Einstellungen > Apps deinstallieren",
   "aktivator": "Illegaler Aktivator für Windows/Office: sehr oft mit Schadsoftware verseucht. Entfernen, vollständigen Virenscan machen und korrekt lizenzieren",
   "eingestellt": "Vom Hersteller eingestellt, bekommt keine Sicherheitsupdates mehr: deinstallieren oder durch den Nachfolger ersetzen",
-  "browser-b": "Werbe- oder Mining-Browser, kommt meist als Beipack: wenn nicht bewusst installiert, deinstallieren"
+  "browser-b": "Werbe- oder Mining-Browser, kommt meist als Beipack: wenn nicht bewusst installiert, deinstallieren",
+  "zusatz": "Kostenpflichtiges Zusatzprogramm eines bekannten Herstellers, meist als Beipack oder Testversion gekommen: wenn nicht bewusst gekauft, über Einstellungen > Apps deinstallieren",
+  "backup-b": "Fragwürdiges Backup-Programm mit Abo-Werbung: vor dem Deinstallieren prüfen, ob dort eigene Daten gesichert sind"
  },
  "programme": [
   {
@@ -94,26 +96,26 @@
   {
    "n": "WinZip Driver Updater",
    "m": "^WinZip Driver Updater\\b",
-   "s": "A",
-   "k": "treiber"
+   "s": "B",
+   "k": "zusatz"
   },
   {
    "n": "Avast Driver Updater",
    "m": "^Avast Driver Updater\\b",
-   "s": "A",
-   "k": "treiber"
+   "s": "B",
+   "k": "zusatz"
   },
   {
    "n": "AVG Driver Updater",
    "m": "^AVG Driver Updater\\b",
-   "s": "A",
-   "k": "treiber"
+   "s": "B",
+   "k": "zusatz"
   },
   {
    "n": "Auslogics Driver Updater",
    "m": "^Auslogics Driver Updater\\b",
-   "s": "A",
-   "k": "treiber"
+   "s": "B",
+   "k": "zusatz"
   },
   {
    "n": "Outbyte Driver Updater",
@@ -136,8 +138,8 @@
   {
    "n": "Ashampoo Driver Updater",
    "m": "^Ashampoo Driver Updater\\b",
-   "s": "A",
-   "k": "treiber"
+   "s": "B",
+   "k": "zusatz"
   },
   {
    "n": "DriverMax",
@@ -424,14 +426,14 @@
   {
    "n": "WinZip System Utilities",
    "m": "^WinZip System Utilities\\b",
-   "s": "A",
-   "k": "optimierer"
+   "s": "B",
+   "k": "zusatz"
   },
   {
    "n": "WinZip Registry Optimizer",
    "m": "^WinZip Registry Optimizer\\b",
-   "s": "A",
-   "k": "optimierer"
+   "s": "B",
+   "k": "zusatz"
   },
   {
    "n": "PCKeeper",
@@ -858,42 +860,42 @@
    "m": "^McAfee WebAdvisor\\b",
    "s": "A",
    "k": "beipack",
-   "aw": "^McAfee (LiveSafe|Total Protection|AntiVirus|Internet Security|All Access|Small Business|Personal Security)|^McAfee\\+|^McAfee$|^Norton (360|AntiVirus|Internet Security|Security(?! Scan))"
+   "aw": "^McAfee\\W{0,3}(LiveSafe|Total Protection|AntiVirus|Internet Security|All Access|Small Business|Personal Security)|^McAfee\\W{0,2}\\+|^McAfee\\W{0,2}$|^Norton\\W{0,3}(360|AntiVirus|Internet Security|Security(?! Scan))"
   },
   {
    "n": "McAfee SiteAdvisor",
    "m": "^McAfee SiteAdvisor\\b",
    "s": "A",
    "k": "beipack",
-   "aw": "^McAfee (LiveSafe|Total Protection|AntiVirus|Internet Security|All Access|Small Business|Personal Security)|^McAfee\\+|^McAfee$|^Norton (360|AntiVirus|Internet Security|Security(?! Scan))"
+   "aw": "^McAfee\\W{0,3}(LiveSafe|Total Protection|AntiVirus|Internet Security|All Access|Small Business|Personal Security)|^McAfee\\W{0,2}\\+|^McAfee\\W{0,2}$|^Norton\\W{0,3}(360|AntiVirus|Internet Security|Security(?! Scan))"
   },
   {
    "n": "SiteAdvisor",
    "m": "^SiteAdvisor\\b",
    "s": "A",
    "k": "beipack",
-   "aw": "^McAfee (LiveSafe|Total Protection|AntiVirus|Internet Security|All Access|Small Business|Personal Security)|^McAfee\\+|^McAfee$|^Norton (360|AntiVirus|Internet Security|Security(?! Scan))"
+   "aw": "^McAfee\\W{0,3}(LiveSafe|Total Protection|AntiVirus|Internet Security|All Access|Small Business|Personal Security)|^McAfee\\W{0,2}\\+|^McAfee\\W{0,2}$|^Norton\\W{0,3}(360|AntiVirus|Internet Security|Security(?! Scan))"
   },
   {
    "n": "McAfee Security Scan",
    "m": "^McAfee Security Scan\\b",
    "s": "A",
    "k": "beipack",
-   "aw": "^McAfee (LiveSafe|Total Protection|AntiVirus|Internet Security|All Access|Small Business|Personal Security)|^McAfee\\+|^McAfee$|^Norton (360|AntiVirus|Internet Security|Security(?! Scan))"
+   "aw": "^McAfee\\W{0,3}(LiveSafe|Total Protection|AntiVirus|Internet Security|All Access|Small Business|Personal Security)|^McAfee\\W{0,2}\\+|^McAfee\\W{0,2}$|^Norton\\W{0,3}(360|AntiVirus|Internet Security|Security(?! Scan))"
   },
   {
    "n": "Norton Security Scan",
    "m": "^Norton Security Scan\\b",
    "s": "A",
    "k": "beipack",
-   "aw": "^McAfee (LiveSafe|Total Protection|AntiVirus|Internet Security|All Access|Small Business|Personal Security)|^McAfee\\+|^McAfee$|^Norton (360|AntiVirus|Internet Security|Security(?! Scan))"
+   "aw": "^McAfee\\W{0,3}(LiveSafe|Total Protection|AntiVirus|Internet Security|All Access|Small Business|Personal Security)|^McAfee\\W{0,2}\\+|^McAfee\\W{0,2}$|^Norton\\W{0,3}(360|AntiVirus|Internet Security|Security(?! Scan))"
   },
   {
    "n": "WebAdvisor by McAfee",
    "m": "^WebAdvisor (by|von) McAfee\\b",
    "s": "A",
    "k": "beipack",
-   "aw": "^McAfee (LiveSafe|Total Protection|AntiVirus|Internet Security|All Access|Small Business|Personal Security)|^McAfee\\+|^McAfee$|^Norton (360|AntiVirus|Internet Security|Security(?! Scan))"
+   "aw": "^McAfee\\W{0,3}(LiveSafe|Total Protection|AntiVirus|Internet Security|All Access|Small Business|Personal Security)|^McAfee\\W{0,2}\\+|^McAfee\\W{0,2}$|^Norton\\W{0,3}(360|AntiVirus|Internet Security|Security(?! Scan))"
   },
   {
    "n": "DriverDoc",
@@ -988,14 +990,14 @@
   {
    "n": "MyPC Backup",
    "m": "^MyPC Backup\\b",
-   "s": "A",
-   "k": "optimierer"
+   "s": "B",
+   "k": "backup-b"
   },
   {
    "n": "WinZip Malware Protector",
    "m": "^WinZip Malware Protector\\b",
-   "s": "A",
-   "k": "optimierer"
+   "s": "B",
+   "k": "zusatz"
   },
   {
    "n": "RegistryBooster",
@@ -1558,8 +1560,8 @@
   {
    "n": "Strongvault",
    "m": "^Strongvault\\b",
-   "s": "A",
-   "k": "adware"
+   "s": "B",
+   "k": "backup-b"
   },
   {
    "n": "PC Protector Plus",
@@ -2972,7 +2974,6 @@
   "click",
   "icu",
   "cam",
-  "club",
   "buzz",
   "rest",
   "cfd",
@@ -2987,16 +2988,6 @@
   "ga",
   "cf",
   "gq",
-  "work",
-  "fun",
-  "space",
-  "website",
-  "online",
-  "site",
-  "live",
-  "life",
-  "world",
-  "today",
   "bid",
   "win",
   "loan",
@@ -3008,19 +2999,7 @@
   "trade",
   "racing",
   "men",
-  "pro",
-  "best",
-  "surf",
-  "beauty",
-  "hair",
-  "skin",
-  "makeup",
-  "mom",
-  "lol",
-  "autos",
-  "boats",
-  "motorcycles",
-  "yachts"
+  "surf"
  ],
  "pushVerdachtWort": [
   "push",
@@ -3028,35 +3007,26 @@
   "captcha",
   "robot",
   "allow",
-  "click",
   "prize",
   "winner",
   "reward",
   "gift",
   "lucky",
   "bonus",
-  "alert",
   "virus",
   "antivir",
-  "secur",
-  "protect",
-  "clean",
-  "update",
-  "download",
-  "stream",
   "adult",
   "dating",
   "casino",
-  "bet",
-  "crypto",
   "profit",
-  "news-",
-  "-news",
-  "daily",
   "mcafee",
   "norton",
   "avast",
-  "defender"
+  "defender",
+  "click-",
+  "-click",
+  "alert-",
+  "-alert"
  ],
  "pushBekannt": [
   "google.com",
@@ -3138,7 +3108,19 @@
   "tiktok.com",
   "pinterest.com",
   "duolingo.com",
-  "wikipedia.org"
+  "wikipedia.org",
+  "pushbullet.com",
+  "alert.swiss",
+  "alertswiss.ch",
+  "mcafee.com",
+  "norton.com",
+  "avast.com",
+  "avg.com",
+  "avira.com",
+  "kaspersky.com",
+  "bitdefender.com",
+  "eset.com",
+  "malwarebytes.com"
  ],
  "sicherung": [
   {
